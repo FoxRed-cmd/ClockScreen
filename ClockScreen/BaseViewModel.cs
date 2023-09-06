@@ -105,7 +105,7 @@ namespace ClockScreen
 
         private void Timer_Elapsed(object? sender, EventArgs e)
         {
-            HourAngle = 30 * DateTime.Now.Hour - 90;
+            HourAngle = (30 * DateTime.Now.Hour - 90) + (DateTime.Now.Minute / 2);
             MinuteAngle = 6 * DateTime.Now.Minute - 90;
             SecondAngle = 6 * DateTime.Now.Second - 90;
             TextTime = DateTime.Now.ToString("HH:mm:ss");

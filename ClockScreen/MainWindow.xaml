@@ -190,7 +190,8 @@
                            Foreground="#FFFFAF00" 
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center" 
-                           Margin="0 60 0 0" FontSize="20" FontFamily="Unispace"
+                           Margin="0 60 0 0" FontSize="16" 
+                           FontFamily="Fonts/#Press Start 2P"
                            />
 
                 <Border x:Name="Hour"
